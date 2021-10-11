@@ -38,7 +38,7 @@
 
 
  `github_username` : "githubprep"
- `repo_name` :
+ `repo_link` :https://github.com/githubprep/fashionette-task.git
  `project_description` : The test automation is created by using **Cucumber** **BDD** framework with **Selenium** for user interface testing
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -110,7 +110,7 @@ or from your local shell with maven "mvn verify".
 
 Ahmet Akyürek -- akyurekahmet@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: https://github.com/githubprep/fashionette-task.git
 **githuba yuklenmedi!**
 <p align="right">(<a href="#top">back to top</a>)</p>
 
