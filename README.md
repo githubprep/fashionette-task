@@ -111,7 +111,7 @@ or from your local shell with maven "mvn verify".
 Ahmet Akyürek -- akyurekahmet@gmail.com
 
 Project Link: https://github.com/githubprep/fashionette-task.git
-**githuba yuklenmedi!**
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
