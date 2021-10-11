@@ -1,6 +1,7 @@
+@task
 Feature: Using voucher code to make a discount
 
-  @task3
+
   Scenario Outline: Verify that the user should be apply the voucher code for discount "<productnumber>"
     Given the user is on the "HomePage"
     And the user accepts the cookies

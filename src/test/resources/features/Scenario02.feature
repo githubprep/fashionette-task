@@ -1,7 +1,7 @@
-
+@task
 Feature: Modifying user information
 
-@task1
+
 Scenario: Verify that the user should be able to modify user information
     Given the user is on the "HomePage"
     And the user accepts the cookies
@@ -9,6 +9,6 @@ Scenario: Verify that the user should be able to modify user information
     And the user should login with userName "QA@fashionette.de" and password "!8Ntr*BM@!#G3VH"
     And the user clicks the PERSONAL DATA
     And the user clicks the edit button under Customer information
-    And the user enters the new Name "Fashionette" and Surname "Cool"
+    And the user enters the new Name "Fashionette" and Surname "isCool"
     When the user clicks save button
-    Then verify that Name and Surname has changed to new Name "Fashionette" and Surname "Cool"
+    Then verify that Name and Surname has changed to new Name "Fashionette" and Surname "isCool"

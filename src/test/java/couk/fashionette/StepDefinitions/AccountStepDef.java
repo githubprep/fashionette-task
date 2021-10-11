@@ -12,23 +12,15 @@ import org.junit.Assert;
 public class AccountStepDef {
 
     AccountPage accountPage = new AccountPage();
+
     @And("the user clicks the PERSONAL DATA")
     public void theUserClicksThePERSONALDATA() {
-
         accountPage.personalDataTab.click();
     }
 
     @And("the user clicks the edit button under Customer information")
     public void theUserClicksTheEditButtonUnderCustomerInformation() {
-
         accountPage.editLink.click();
-    }
-
-    @When("the user clicks save button")
-    public void theUserClicksSaveButton() {
-        accountPage.saveLink.click();
-        BrowserUtils.waitForVisibility(accountPage.editLink, 5);
-
     }
 
 
@@ -37,6 +29,13 @@ public class AccountStepDef {
         accountPage.updateUserInformation(name, surname);
 
     }
+
+    @When("the user clicks save button")
+    public void theUserClicksSaveButton() {
+        accountPage.saveLink.click();
+        BrowserUtils.waitForVisibility(accountPage.editLink, 5);
+    }
+
 
     @Then("verify that Name and Surname has changed to new Name {string} and Surname {string}")
     public void verifyThatNameAndSurnameHasChangedToNewNameAndSurname(String newName, String newSurname) {

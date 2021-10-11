@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "couk/fashionette/StepDefinitions",
         dryRun = false,
-        tags = "@task3"
+        tags = "@task"
 )
 public class CukesRunner {
 }

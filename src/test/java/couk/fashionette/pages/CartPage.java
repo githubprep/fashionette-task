@@ -26,6 +26,10 @@ public class CartPage extends BasePage {
     @FindBy(css = "tr[class='cart__sum__payment__installment-shipping-note'] td")
     public WebElement voucherApplyMessage;
 
+    /**
+     * This method is used to apply voucher
+     * @param couponName
+     */
     public void usingVoucherCode(String couponName){
        redeemLink.click();
        couponBox.sendKeys(couponName);

@@ -8,11 +8,6 @@ public class LoginStepDef {
 
     LoginPage loginpage = new LoginPage();
 
-    @And("the user should login with the valid credentials")
-    public void theUserShouldLoginWithTheValidCredentials() {
-
-
-    }
 
     @And("the user should login with userName {string} and password {string}")
     public void theUserShouldLoginWithUserNameAndPassword(String username, String password) {
